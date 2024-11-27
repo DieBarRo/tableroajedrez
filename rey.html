@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <hr>
+        <table style="width: 100%;">
+            <tr>
+                <th style="float: left;"><img src="images/tableroAjedrez.png" alt="" width="200"></th>
+                <th style="margin: auto;"><h1>Tablero Ajedrez</h1></th>
+                <th style="float: right;"><img src="images/tableroAjedrez.png" alt="" width="200"></th>
+            </tr>
+        </table>
+        <hr>
+        <br>
+    </header>
+
+
+    <table style="width: 80%; margin: auto;">
+        <tr>
+            <td style="float: left;"><img src="images/rey.png" alt="" width="300"></td>
+            <td style="margin: auto;">
+                <ul>
+                    <li>Nombre: Rey</li>
+                    <li>Cantidad: 1</li>
+                    <li>Valor: Absoluto (captura equivale a la partida) </li>
+                </ul>
+                <p><h3>Descripción:</h3></p>
+                <p>El rey es la pieza más importante del ajedrez, ya que el objetivo del juego es protegerlo y dar jaque mate al rey enemigo. Aunque su movimiento es limitado, juega un papel crucial en la estrategia y el final del juego.</p>
+            </td>
+            <td style="float: right;"><img src="images/reyNegro.png" alt="" width="300"></td>
+        </tr>
+    </table>
+
+    <hr>
+    <h3>Movimientos:</h3>
+    <p><h5>Avance básico:</h5>
+
+        <p>El rey puede moverse una casilla en cualquier dirección:
+            Horizontalmente (izquierda o derecha).
+            Verticalmente (arriba o abajo).
+            Diagonalmente (en cualquiera de las cuatro diagonales).
+            No puede moverse a una casilla que esté bajo ataque por una pieza enemiga (esto se llama "entrar en jaque").</p>
+        
+        <h5>Captura:</h5>
+        
+        <p>El rey captura moviéndose a una casilla ocupada por una pieza enemiga, siempre que esa casilla no esté bajo ataque.</p>
+        
+        <h5>Restricciones:</h5>
+        
+        <p>No puede moverse a una casilla ocupada por una pieza amiga.
+            No puede moverse a una casilla donde quedaría en jaque.</p>
+        
+        <h5>Enroque (movimiento especial):</h5>
+        
+        <p>El rey puede realizar el enroque una vez por partida, junto con una torre. Este movimiento tiene reglas específicas:
+            El rey se mueve dos casillas hacia la torre, y la torre salta al otro lado del rey.
+            Condiciones para enrocar:
+            El rey y la torre involucrada no deben haber sido movidos previamente.
+            No debe haber piezas entre el rey y la torre.
+            El rey no puede estar en jaque, pasar por una casilla bajo ataque ni terminar en jaque.
+            Solo puede hacerse en las primeras filas (primera fila para las blancas y octava para las negras).</p>
+       
+    <br><br>
+    <div style="width: 100%;">
+    <img src="images/reyMovements.gif" alt="" style="margin-left: auto; margin-right: auto; display: block;" width="400">
+    </div>
+    <br><br>
+    <table style="margin: auto;" border="1">
+        <tr style="text-align: center; width: 50% ;">
+            <th>
+                <a href="index.html">Regresar</a>
+            </th>
+        </tr>
+    </table>
+    <footer>
+        <p style="text-align: center;">TableroAjedrez® Diego Barrero 2024</p>
+    </footer>
+</body>
+</html>

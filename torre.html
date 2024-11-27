@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <hr>
+        <table style="width: 100%;">
+            <tr>
+                <th style="float: left;"><img src="images/tableroAjedrez.png" alt="" width="200"></th>
+                <th style="margin: auto;"><h1>Tablero Ajedrez</h1></th>
+                <th style="float: right;"><img src="images/tableroAjedrez.png" alt="" width="200"></th>
+            </tr>
+        </table>
+        <hr>
+        <br>
+    </header>
+
+
+    <table style="width: 80%; margin: auto;">
+        <tr>
+            <td style="float: left;"><img src="images/torre.png" alt="" width="300"></td>
+            <td style="margin: auto;">
+                <ul>
+                    <li>Nombre: Torre</li>
+                    <li>Cantidad: 2</li>
+                    <li>Valor: 5 </li>
+                </ul>
+                <p><h3>Descripción:</h3></p>
+                <p>La torre es una de las piezas más poderosas del ajedrez, especialmente en el juego intermedio y final, debido a su capacidad de controlar largas filas y columnas del tablero.</p>
+            </td>
+            <td style="float: right;"><img src="images/torreNegro.png" alt="" width="300"></td>
+        </tr>
+    </table>
+
+    <hr>
+    <h3>Movimientos:</h3>
+    <p><h5>Movimiento básico:</h5>
+
+        <p>La torre se mueve en línea recta a lo largo de filas (horizontalmente) y columnas (verticalmente).
+            Puede avanzar cualquier número de casillas en estas direcciones, siempre que no haya otras piezas bloqueando su camino.
+            No puede moverse en diagonal.</p>
+        
+        <h5>Captura:</h5>
+        
+        <p>La torre captura piezas enemigas moviéndose hacia la casilla ocupada por la pieza que se desea capturar.
+            Solo puede capturar piezas enemigas que se encuentren en su camino y debe detenerse en la casilla de la captura.</p>
+        
+        <h5>Restricciones:</h5>
+        
+        <p>La torre no puede saltar sobre otras piezas.
+            Si hay una pieza (amiga o enemiga) en su camino, su movimiento se detiene antes de esa casilla.</p>
+        
+        <h5>Enroque (movimiento especial con el rey):</h5>
+        
+        <p>La torre participa en el enroque, un movimiento especial en el que el rey y la torre se mueven al mismo tiempo.
+            El enroque solo puede realizarse si se cumplen estas condiciones:
+            Ni el rey ni la torre han sido movidos previamente.
+            No hay piezas entre el rey y la torre.
+            El rey no puede estar en jaque, pasar por una casilla en jaque ni terminar en jaque.
+            En el enroque corto (flanco de rey), el rey se mueve dos casillas hacia la torre, y la torre salta al lado del rey.
+            En el enroque largo (flanco de dama), el rey se mueve dos casillas hacia la torre, y la torre se coloca al otro lado del rey.</p>
+       
+        
+    <br><br>
+    <div style="width: 100%;">
+    <img src="images/torreMovements.gif" alt="" style="margin-left: auto; margin-right: auto; display: block;" width="400">
+    </div>
+    <br><br>
+    <table style="margin: auto;" border="1">
+        <tr style="text-align: center; width: 50% ;">
+            <th>
+                <a href="index.html">Regresar</a>
+            </th>
+        </tr>
+    </table>
+    <footer>
+        <p style="text-align: center;">TableroAjedrez® Diego Barrero 2024</p>
+    </footer>
+</body>
+</html>
