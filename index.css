@@ -5,8 +5,8 @@ div.tablero {
     height: 640px;
 
     border-color: black;
-    border-style: dotted;
-    border-width: 0px;
+    border-style: solid;
+    border-width: 2px;
 }
 
 div.tablero__fila {
@@ -29,7 +29,7 @@ div.tablero__black {
     margin: 0%;
     padding: 0%;
 
-    background-color: blue;
+    background-color: #663300;
 }
 
 div.tablero__white {
@@ -41,5 +41,23 @@ div.tablero__white {
     margin: 0%;
     padding: 0%;
 
-    background-color: grey;
+    background-color: whitesmoke;
+}
+
+a:has(img){
+    margin: auto;
+}
+
+div[class^="tablero"] a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+  }
+
+div[class^="tablero"] a[href^=peon] img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 55px;
 }
